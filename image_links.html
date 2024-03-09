@@ -2,65 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Webpage</title>
-    <style>
-        /* Add some basic styling */
-        body { font-family: Arial, sans-serif; }
-        .gallery, .menu { display: flex; flex-wrap: wrap; }
-        .gallery img, .menu img { margin: 10px; width: 200px; height: auto; }
-        nav ul { display: flex; list-style: none; }
-        nav ul li { margin-right: 20px; }
-        a { text-decoration: none; color: blue; }
-        a:hover { text-decoration: underline; }
-    </style>
+    <title>IMAGE_LINKS</title>
 </head>
 <body>
-
-    <!-- Navigation for easy access to sections -->
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#menu">Menu</a></li>
-        </ul>
-    </nav>
-
+<style>
+    /* Add your CSS here */
+    #Home {
+        text-align: center;
+    }
+    #Gallery {
+        text-align: center;
+    }
+    #Menu {
+        text-align: center;
+    }
+    h1 {
+        color: #FF4500;
+    }
+    h2 {
+        color: #FF4500;
+    }
+    a {
+        text-decoration: none;
+    }
+    img {
+        width: 350px;
+        height: 350px;
+        margin: 20px;
+    }
+    ul {
+        list-style-type: none;
+    }
+    li {
+        display: inline;
+    }
+</style>
     <!-- Home Section -->
-    <section id="home">
-        <h1>Welcome to My Webpage</h1>
-        <p>This is a simple webpage designed to showcase technology, nature, and food.</p>
-        <!-- Linking an image; replace the URL with your technology-related image URL -->
-        <a href="URL_TO_A_TECHNOLOGY_RELATED_IMAGE">
-            <img src="URL_TO_A_TECHNOLOGY_RELATED_IMAGE" alt="Technology Image" style="width: 300px;">
-        </a>
-    </section>
+    <div id="Home">
+        <h1>Home</h1>
+        <a href="https://images.pexels.com/photos/1809576/pexels-photo-1809576.jpeg?auto=compress&cs=tinysrgb&w=600">
+            <img src="https://images.pexels.com/photos/1809576/pexels-photo-1809576.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Drone">
+    </a>
+    </div>
 
     <!-- Gallery Section -->
-    <section id="gallery">
+    <div id="Gallery">
         <h2>Gallery</h2>
-        <div class="gallery">
-            <!-- Repeat the structure below for each nature-related image -->
-            <a href="URL_TO_NATURE_IMAGE_1">
-                <img src="URL_TO_NATURE_IMAGE_1" alt="Nature Image 1">
-            </a>
-            <!-- Add more images as needed -->
-        </div>
-    </section>
+        <a href="https://images.pexels.com/photos/840111/pexels-photo-840111.jpeg?auto=compress&cs=tinysrgb&w=600">
+            <img src="https://images.pexels.com/photos/840111/pexels-photo-840111.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Chicken">
+        </a>
+    </div>
 
     <!-- Menu Section -->
-    <section id="menu">
+    <div id="Menu">
         <h2>Menu</h2>
-        <div class="menu">
-            <!-- Repeat the structure below for each food item -->
-            <div>
-                <a href="URL_TO_FOOD_IMAGE_1">
-                    <img src="URL_TO_FOOD_IMAGE_1" alt="Food Item 1">
-                    <p>Food Item 1</p>
+        <ul>
+            <li>
+                <a href="https://images.pexels.com/photos/6608618/pexels-photo-6608618.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    <img src="https://images.pexels.com/photos/6608618/pexels-photo-6608618.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Breakfast">
                 </a>
-            </div>
-            <!-- Add more food items as needed -->
-        </div>
-    </section>
-
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
