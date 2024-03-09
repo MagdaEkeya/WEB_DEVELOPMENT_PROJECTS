@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+    <form action="Form.html" method="post">
+        
+        <!-- Name -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+        
+        <!-- Date of Birth -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br>
+        
+        <!-- Gender -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female" required>
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="Other" required>
+            <label for="other">Other</label><br>
+        
+        <!-- Address -->
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required><br>
+        
+        <!-- Phone Number -->
+            <label for="Phone Number">Phone Number:</label>
+            <input type="Phone Number" id="Phone Number" name="Phone Number" required><br>
+        
+        <!-- Email Address -->
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="johndoe@hotmail.com" required><br>
+        
+        <!-- Course -->
+            <label for="course">Course:</label>
+            <select id="course" name="course" required>
+            <option value="">Please select a course</option>
+            <option value="Web Development">Web Development</option>
+            <option value="Python">Python</option>
+            <option value="Database Design">Database Design</option>
+        <!-- Add more courses as needed -->
+            <option value="Other">Other</option>
+            <input type="other" id="other" name="name" required><br>
+            </select><br>
+
+        <!-- Buttons -->
+            <button type="register" onclick="alert('Registration successful.');">Register</button>
+            <button type="cancel" onclick="alert('Registration canceled.');">Cancel</button>
+ 
+    </form>
+</body>
+</html>
