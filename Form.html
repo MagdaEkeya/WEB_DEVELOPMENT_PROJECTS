@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
 </head>
 <body>
@@ -9,11 +10,11 @@
         
         <!-- Name -->
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required><br>
+            <input type="text" id="name" name="name" plaeholder="Enter your full name here" required><br>
         
         <!-- Date of Birth -->
-            <label for="dob">Date of Birth:</label>
-            <input type="date" id="dob" name="dob" required><br>
+            <label for="dob DDMMYYYY">Date of Birth:</label>
+            <input type="date" id="dob DDMMYYYY" name="dob DDMMYYYY" required><br>
         
         <!-- Gender -->
             <label>Gender:</label>
@@ -51,7 +52,7 @@
         <!-- Buttons -->
             <button type="register" onclick="alert('Registration successful.');">Register</button>
             <button type="cancel" onclick="alert('Registration canceled.');">Cancel</button>
- 
+
     </form>
 </body>
 </html>
